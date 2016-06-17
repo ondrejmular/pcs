@@ -37,7 +37,10 @@ def discover_tests(test_name_list):
     loader = unittest.TestLoader()
     if test_name_list:
         return loader.loadTestsFromNames(map(prepare_test_name, test_name_list))
-    return loader.discover(PACKAGE_DIR, pattern='test_*.py')
+    return loader.discover(
+        os.path.join(PACKAGE_DIR, "pcs"),
+        pattern='test_*.py'
+    )
 
 def run_tests(tests, verbose=False, color=False):
     resultclass = unittest.runner.TextTestResult
