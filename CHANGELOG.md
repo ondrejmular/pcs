@@ -39,6 +39,8 @@
   occupied with non-resource element ([rhbz#1382004])
 - Fixed misbehavior of the flag `--master` in `pcs resource create` command
   ([rhbz#1378107])
+- Fixed tacit acceptance of invalid resource operation in `pcs resource create`
+  ([rhbz#1398562])
 
 [ghissue#124]: https://github.com/ClusterLabs/pcs/issues/124
 [ghissue#125]: https://github.com/ClusterLabs/pcs/issues/125
@@ -55,6 +57,7 @@
 [rhbz#1394273]: https://bugzilla.redhat.com/show_bug.cgi?id=1394273
 [rhbz#1394846]: https://bugzilla.redhat.com/show_bug.cgi?id=1394846
 [rhbz#1395226]: https://bugzilla.redhat.com/show_bug.cgi?id=1395226
+[rhbz#1398562]: https://bugzilla.redhat.com/show_bug.cgi?id=1398562
 [rhbz#1404229]: https://bugzilla.redhat.com/show_bug.cgi?id=1404229
 
 
