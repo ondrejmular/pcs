@@ -30,6 +30,8 @@ build_gems_without_bundler:
 	vendor/cache/eventmachine-1.2.7.gem \
 	vendor/cache/daemons-1.3.1.gem \
 	vendor/cache/thin-1.7.2.gem \
+	vendor/cache/concurrent-ruby-1.1.7.gem \
+	vendor/cache/i18n-1.8.5.gem \
 	-- '--with-ldflags="-Wl,-z,now -Wl,-z,relro"'
 
 get_gems:

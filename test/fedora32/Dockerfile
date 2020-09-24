@@ -19,6 +19,7 @@ RUN dnf install -y \
         rubygem-backports \
         rubygem-ethon \
         rubygem-ffi \
+        rubygem-i18n \
         rubygem-io-console \
         rubygem-json \
         rubygem-open4 \
